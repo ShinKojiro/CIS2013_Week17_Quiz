@@ -4,11 +4,10 @@
 using namespace std;
 
 const double LITERS_PER_GALLON = 0.264179;
-double gallons;
 double gallonsPerMile;
 double litersPerMile;
 
-void literToGallon(double& lit){
+void literToGallon(double lit){
     litersPerMile = lit;
     gallonsPerMile = LITERS_PER_GALLON * lit;
 
